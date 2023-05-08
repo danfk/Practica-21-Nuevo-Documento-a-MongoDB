@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <table action="/addStudent" method="POST">
+            <tr>
+                <td>Nombre</td>
+                <td>Edad</td>
+                <td>Tipo sangre</td>
+                <td>NSS</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="nombre" name="nombre"></td>
+                <td><input type="text" id="edad" name="edad"></td>
+                <td><input type="text" id="tipoSangre" name="tipoSangre"></td>
+                <td><input type="text" id="nss" name="nss"></td>
+                <td><a href="insert.ejs">Editar</a></td>
+                <td><a href="">Borrar</a></td>
+            </tr>
+        </table>
+
+        <a href="./addPerson">Agregar</a>
+    </body>
+</html>
